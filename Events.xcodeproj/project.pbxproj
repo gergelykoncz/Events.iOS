@@ -16,6 +16,12 @@
 		C4AD3E0817A417E5005CB10E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AD3E0717A417E5005CB10E /* Default.png */; };
 		C4AD3E0A17A417E5005CB10E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AD3E0917A417E5005CB10E /* Default@2x.png */; };
 		C4AD3E0C17A417E5005CB10E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AD3E0B17A417E5005CB10E /* Default-568h@2x.png */; };
+		C4AD3E1517A41820005CB10E /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AD3E1417A41820005CB10E /* Event.m */; };
+		C4AD3E1917A418C6005CB10E /* EventRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AD3E1817A418C6005CB10E /* EventRepository.m */; };
+		C4AD3E1F17A41C7F005CB10E /* EventMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AD3E1E17A41C7F005CB10E /* EventMapper.m */; };
+		C4AD3E2417A41F13005CB10E /* EventListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AD3E2217A41F13005CB10E /* EventListViewController.m */; };
+		C4AD3E2517A41F13005CB10E /* EventListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4AD3E2317A41F13005CB10E /* EventListViewController.xib */; };
+		C4AD3E2817A41F8F005CB10E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4AD3E2717A41F8F005CB10E /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,11 +33,22 @@
 		C4AD3DFF17A417E5005CB10E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C4AD3E0117A417E5005CB10E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4AD3E0317A417E5005CB10E /* Events-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Events-Prefix.pch"; sourceTree = "<group>"; };
-		C4AD3E0417A417E5005CB10E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C4AD3E0517A417E5005CB10E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C4AD3E0417A417E5005CB10E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Events/AppDelegate.h; sourceTree = "<group>"; };
+		C4AD3E0517A417E5005CB10E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Events/AppDelegate.m; sourceTree = "<group>"; };
 		C4AD3E0717A417E5005CB10E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C4AD3E0917A417E5005CB10E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C4AD3E0B17A417E5005CB10E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C4AD3E1317A41820005CB10E /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Event.h; path = Entities/Event.h; sourceTree = "<group>"; };
+		C4AD3E1417A41820005CB10E /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Event.m; path = Entities/Event.m; sourceTree = "<group>"; };
+		C4AD3E1717A418C6005CB10E /* EventRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventRepository.h; path = Repositories/EventRepository.h; sourceTree = "<group>"; };
+		C4AD3E1817A418C6005CB10E /* EventRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventRepository.m; path = Repositories/EventRepository.m; sourceTree = "<group>"; };
+		C4AD3E1B17A41930005CB10E /* EventsDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EventsDelegate.h; path = Protocols/EventsDelegate.h; sourceTree = "<group>"; };
+		C4AD3E1D17A41C7F005CB10E /* EventMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventMapper.h; path = Mappers/EventMapper.h; sourceTree = "<group>"; };
+		C4AD3E1E17A41C7F005CB10E /* EventMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventMapper.m; path = Mappers/EventMapper.m; sourceTree = "<group>"; };
+		C4AD3E2117A41F13005CB10E /* EventListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventListViewController.h; path = ViewControllers/EventListViewController.h; sourceTree = "<group>"; };
+		C4AD3E2217A41F13005CB10E /* EventListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventListViewController.m; path = ViewControllers/EventListViewController.m; sourceTree = "<group>"; };
+		C4AD3E2317A41F13005CB10E /* EventListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EventListViewController.xib; path = ViewControllers/EventListViewController.xib; sourceTree = "<group>"; };
+		C4AD3E2717A41F8F005CB10E /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = Resources/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +69,8 @@
 			isa = PBXGroup;
 			children = (
 				C4AD3DFB17A417E5005CB10E /* Events */,
+				C4AD3E0417A417E5005CB10E /* AppDelegate.h */,
+				C4AD3E0517A417E5005CB10E /* AppDelegate.m */,
 				C4AD3DF417A417E5005CB10E /* Frameworks */,
 				C4AD3DF317A417E5005CB10E /* Products */,
 			);
@@ -78,9 +97,13 @@
 		C4AD3DFB17A417E5005CB10E /* Events */ = {
 			isa = PBXGroup;
 			children = (
-				C4AD3E0417A417E5005CB10E /* AppDelegate.h */,
-				C4AD3E0517A417E5005CB10E /* AppDelegate.m */,
+				C4AD3E1217A41805005CB10E /* Entities */,
+				C4AD3E1C17A41C6B005CB10E /* Mappers */,
+				C4AD3E1A17A41914005CB10E /* Protocols */,
+				C4AD3E1617A418AB005CB10E /* Repositories */,
+				C4AD3E2617A41F72005CB10E /* Resources */,
 				C4AD3DFC17A417E5005CB10E /* Supporting Files */,
+				C4AD3E2017A41EA1005CB10E /* ViewControllers */,
 			);
 			path = Events;
 			sourceTree = "<group>";
@@ -97,6 +120,59 @@
 				C4AD3E0B17A417E5005CB10E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4AD3E1217A41805005CB10E /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				C4AD3E1317A41820005CB10E /* Event.h */,
+				C4AD3E1417A41820005CB10E /* Event.m */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		C4AD3E1617A418AB005CB10E /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				C4AD3E1717A418C6005CB10E /* EventRepository.h */,
+				C4AD3E1817A418C6005CB10E /* EventRepository.m */,
+			);
+			name = Repositories;
+			sourceTree = "<group>";
+		};
+		C4AD3E1A17A41914005CB10E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C4AD3E1B17A41930005CB10E /* EventsDelegate.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		C4AD3E1C17A41C6B005CB10E /* Mappers */ = {
+			isa = PBXGroup;
+			children = (
+				C4AD3E1D17A41C7F005CB10E /* EventMapper.h */,
+				C4AD3E1E17A41C7F005CB10E /* EventMapper.m */,
+			);
+			name = Mappers;
+			sourceTree = "<group>";
+		};
+		C4AD3E2017A41EA1005CB10E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C4AD3E2117A41F13005CB10E /* EventListViewController.h */,
+				C4AD3E2217A41F13005CB10E /* EventListViewController.m */,
+				C4AD3E2317A41F13005CB10E /* EventListViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C4AD3E2617A41F72005CB10E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C4AD3E2717A41F8F005CB10E /* Localizable.strings */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +230,8 @@
 				C4AD3E0817A417E5005CB10E /* Default.png in Resources */,
 				C4AD3E0A17A417E5005CB10E /* Default@2x.png in Resources */,
 				C4AD3E0C17A417E5005CB10E /* Default-568h@2x.png in Resources */,
+				C4AD3E2517A41F13005CB10E /* EventListViewController.xib in Resources */,
+				C4AD3E2817A41F8F005CB10E /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +244,10 @@
 			files = (
 				C4AD3E0217A417E5005CB10E /* main.m in Sources */,
 				C4AD3E0617A417E5005CB10E /* AppDelegate.m in Sources */,
+				C4AD3E1517A41820005CB10E /* Event.m in Sources */,
+				C4AD3E1917A418C6005CB10E /* EventRepository.m in Sources */,
+				C4AD3E1F17A41C7F005CB10E /* EventMapper.m in Sources */,
+				C4AD3E2417A41F13005CB10E /* EventListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
