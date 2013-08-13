@@ -8,11 +8,16 @@
 
 #import <UIKit/UIKit.h>
 #import "EventRepository.h"
+#import "MADayView.h"
+#import "MAEventMapper.h"
+#import "NSDate+DateCategory.h"
 
-@interface EventListViewController : UIViewController<UITableViewDataSource, UITableViewDelegate, EventsDelegate>{
+@interface EventListViewController : UIViewController<EventsDelegate, MADayViewDataSource, MADayViewDelegate>{
     NSArray* eventList;
+    EventRepository* repository;
+    NSDate* actualDate;
 }
 
-@property(nonatomic, retain) IBOutlet UITableView* eventsTable;
+@property(nonatomic, retain) IBOutlet MADayView* maDayView;
 
 @end

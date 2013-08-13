@@ -9,7 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "Event.h"
 
-@interface EventMapper : NSObject
+@interface EventMapper : NSObject{
+    NSDateFormatter* dateFormatter;
+}
 
 -(Event*)mapDictionary:(NSDictionary*)dictionary;
 

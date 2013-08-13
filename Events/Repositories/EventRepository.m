@@ -14,7 +14,7 @@
 -(void)loadEventsForDate:(NSDate *)date forDelegate:(NSObject<EventsDelegate> *)delegate{
     //Build and start an asynchronous request for event data.
     self.eventsDelegate = delegate;
-    NSURL* url = [NSURL URLWithString:@"http://myserver.com/events.json"];
+    NSURL* url = [NSURL URLWithString:@"http://myjsonservice.com/events.js"];
     NSURLRequest* request = [NSURLRequest requestWithURL:url];
     NSURLConnection* connection = [NSURLConnection connectionWithRequest:request delegate:self];
     [connection start];
@@ -45,6 +45,7 @@
     if(jsonParsingError){
         //Data is not JSON, notify caller.
         [eventsDelegate errorOccurred:@"Response is not JSON data."];
+        NSLog(@"%@", jsonParsingError.description);
     }
     else{
         //Data is JSON, create Event elements from the entries.

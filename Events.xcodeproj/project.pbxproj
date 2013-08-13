@@ -22,6 +22,18 @@
 		C4AD3E2417A41F13005CB10E /* EventListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AD3E2217A41F13005CB10E /* EventListViewController.m */; };
 		C4AD3E2517A41F13005CB10E /* EventListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4AD3E2317A41F13005CB10E /* EventListViewController.xib */; };
 		C4AD3E2817A41F8F005CB10E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4AD3E2717A41F8F005CB10E /* Localizable.strings */; };
+		C4B01A6E17BAA3F000666352 /* ma_leftArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B01A5F17BAA3F000666352 /* ma_leftArrow.png */; };
+		C4B01A6F17BAA3F000666352 /* ma_leftArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B01A6017BAA3F000666352 /* ma_leftArrow@2x.png */; };
+		C4B01A7017BAA3F000666352 /* ma_rightArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B01A6117BAA3F000666352 /* ma_rightArrow.png */; };
+		C4B01A7117BAA3F000666352 /* ma_rightArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B01A6217BAA3F000666352 /* ma_rightArrow@2x.png */; };
+		C4B01A7217BAA3F000666352 /* ma_topBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B01A6317BAA3F000666352 /* ma_topBackground.png */; };
+		C4B01A7317BAA3F000666352 /* MADayView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B01A6517BAA3F000666352 /* MADayView.m */; };
+		C4B01A7417BAA3F000666352 /* MAEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B01A6717BAA3F000666352 /* MAEvent.m */; };
+		C4B01A7617BAA3F000666352 /* MAGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B01A6B17BAA3F000666352 /* MAGridView.m */; };
+		C4B01A7717BAA3F000666352 /* MAWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B01A6D17BAA3F000666352 /* MAWeekView.m */; };
+		C4B01A7A17BAA51B00666352 /* MAEventMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B01A7917BAA51B00666352 /* MAEventMapper.m */; };
+		C4B01A7D17BAA64500666352 /* TapDetectingView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B01A7C17BAA64500666352 /* TapDetectingView.m */; };
+		C4B01A8117BAA94700666352 /* NSDate+DateCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B01A8017BAA94700666352 /* NSDate+DateCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +61,25 @@
 		C4AD3E2217A41F13005CB10E /* EventListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventListViewController.m; path = ViewControllers/EventListViewController.m; sourceTree = "<group>"; };
 		C4AD3E2317A41F13005CB10E /* EventListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EventListViewController.xib; path = ViewControllers/EventListViewController.xib; sourceTree = "<group>"; };
 		C4AD3E2717A41F8F005CB10E /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = Resources/Localizable.strings; sourceTree = "<group>"; };
+		C4B01A5F17BAA3F000666352 /* ma_leftArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ma_leftArrow.png; sourceTree = "<group>"; };
+		C4B01A6017BAA3F000666352 /* ma_leftArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ma_leftArrow@2x.png"; sourceTree = "<group>"; };
+		C4B01A6117BAA3F000666352 /* ma_rightArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ma_rightArrow.png; sourceTree = "<group>"; };
+		C4B01A6217BAA3F000666352 /* ma_rightArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ma_rightArrow@2x.png"; sourceTree = "<group>"; };
+		C4B01A6317BAA3F000666352 /* ma_topBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ma_topBackground.png; sourceTree = "<group>"; };
+		C4B01A6417BAA3F000666352 /* MADayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADayView.h; sourceTree = "<group>"; };
+		C4B01A6517BAA3F000666352 /* MADayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADayView.m; sourceTree = "<group>"; };
+		C4B01A6617BAA3F000666352 /* MAEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAEvent.h; sourceTree = "<group>"; };
+		C4B01A6717BAA3F000666352 /* MAEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAEvent.m; sourceTree = "<group>"; };
+		C4B01A6A17BAA3F000666352 /* MAGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGridView.h; sourceTree = "<group>"; };
+		C4B01A6B17BAA3F000666352 /* MAGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGridView.m; sourceTree = "<group>"; };
+		C4B01A6C17BAA3F000666352 /* MAWeekView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAWeekView.h; sourceTree = "<group>"; };
+		C4B01A6D17BAA3F000666352 /* MAWeekView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAWeekView.m; sourceTree = "<group>"; };
+		C4B01A7817BAA51B00666352 /* MAEventMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MAEventMapper.h; path = Mappers/MAEventMapper.h; sourceTree = "<group>"; };
+		C4B01A7917BAA51B00666352 /* MAEventMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MAEventMapper.m; path = Mappers/MAEventMapper.m; sourceTree = "<group>"; };
+		C4B01A7B17BAA64500666352 /* TapDetectingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapDetectingView.h; sourceTree = "<group>"; };
+		C4B01A7C17BAA64500666352 /* TapDetectingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapDetectingView.m; sourceTree = "<group>"; };
+		C4B01A7F17BAA94700666352 /* NSDate+DateCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DateCategory.h"; sourceTree = "<group>"; };
+		C4B01A8017BAA94700666352 /* NSDate+DateCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DateCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +128,8 @@
 		C4AD3DFB17A417E5005CB10E /* Events */ = {
 			isa = PBXGroup;
 			children = (
+				C4B01A7E17BAA91B00666352 /* Categories */,
+				C4B01A5D17BAA3A400666352 /* 3rd party */,
 				C4AD3E1217A41805005CB10E /* Entities */,
 				C4AD3E1C17A41C6B005CB10E /* Mappers */,
 				C4AD3E1A17A41914005CB10E /* Protocols */,
@@ -153,6 +186,8 @@
 			children = (
 				C4AD3E1D17A41C7F005CB10E /* EventMapper.h */,
 				C4AD3E1E17A41C7F005CB10E /* EventMapper.m */,
+				C4B01A7817BAA51B00666352 /* MAEventMapper.h */,
+				C4B01A7917BAA51B00666352 /* MAEventMapper.m */,
 			);
 			name = Mappers;
 			sourceTree = "<group>";
@@ -173,6 +208,45 @@
 				C4AD3E2717A41F8F005CB10E /* Localizable.strings */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		C4B01A5D17BAA3A400666352 /* 3rd party */ = {
+			isa = PBXGroup;
+			children = (
+				C4B01A5E17BAA3AA00666352 /* CalendarUI */,
+			);
+			name = "3rd party";
+			sourceTree = "<group>";
+		};
+		C4B01A5E17BAA3AA00666352 /* CalendarUI */ = {
+			isa = PBXGroup;
+			children = (
+				C4B01A7B17BAA64500666352 /* TapDetectingView.h */,
+				C4B01A7C17BAA64500666352 /* TapDetectingView.m */,
+				C4B01A5F17BAA3F000666352 /* ma_leftArrow.png */,
+				C4B01A6017BAA3F000666352 /* ma_leftArrow@2x.png */,
+				C4B01A6117BAA3F000666352 /* ma_rightArrow.png */,
+				C4B01A6217BAA3F000666352 /* ma_rightArrow@2x.png */,
+				C4B01A6317BAA3F000666352 /* ma_topBackground.png */,
+				C4B01A6417BAA3F000666352 /* MADayView.h */,
+				C4B01A6517BAA3F000666352 /* MADayView.m */,
+				C4B01A6617BAA3F000666352 /* MAEvent.h */,
+				C4B01A6717BAA3F000666352 /* MAEvent.m */,
+				C4B01A6A17BAA3F000666352 /* MAGridView.h */,
+				C4B01A6B17BAA3F000666352 /* MAGridView.m */,
+				C4B01A6C17BAA3F000666352 /* MAWeekView.h */,
+				C4B01A6D17BAA3F000666352 /* MAWeekView.m */,
+			);
+			name = CalendarUI;
+			sourceTree = "<group>";
+		};
+		C4B01A7E17BAA91B00666352 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C4B01A7F17BAA94700666352 /* NSDate+DateCategory.h */,
+				C4B01A8017BAA94700666352 /* NSDate+DateCategory.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +306,11 @@
 				C4AD3E0C17A417E5005CB10E /* Default-568h@2x.png in Resources */,
 				C4AD3E2517A41F13005CB10E /* EventListViewController.xib in Resources */,
 				C4AD3E2817A41F8F005CB10E /* Localizable.strings in Resources */,
+				C4B01A6E17BAA3F000666352 /* ma_leftArrow.png in Resources */,
+				C4B01A6F17BAA3F000666352 /* ma_leftArrow@2x.png in Resources */,
+				C4B01A7017BAA3F000666352 /* ma_rightArrow.png in Resources */,
+				C4B01A7117BAA3F000666352 /* ma_rightArrow@2x.png in Resources */,
+				C4B01A7217BAA3F000666352 /* ma_topBackground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +327,13 @@
 				C4AD3E1917A418C6005CB10E /* EventRepository.m in Sources */,
 				C4AD3E1F17A41C7F005CB10E /* EventMapper.m in Sources */,
 				C4AD3E2417A41F13005CB10E /* EventListViewController.m in Sources */,
+				C4B01A7317BAA3F000666352 /* MADayView.m in Sources */,
+				C4B01A7417BAA3F000666352 /* MAEvent.m in Sources */,
+				C4B01A7617BAA3F000666352 /* MAGridView.m in Sources */,
+				C4B01A7717BAA3F000666352 /* MAWeekView.m in Sources */,
+				C4B01A7A17BAA51B00666352 /* MAEventMapper.m in Sources */,
+				C4B01A7D17BAA64500666352 /* TapDetectingView.m in Sources */,
+				C4B01A8117BAA94700666352 /* NSDate+DateCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +448,7 @@
 				C4AD3E1117A417E5005CB10E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
